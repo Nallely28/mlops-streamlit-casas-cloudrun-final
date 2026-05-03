@@ -2,7 +2,7 @@
 datapath-kevin-inofuente-*.json
 *-service-account*.json
 gcp-key.json
-*.json
+
 
 # Python cache
 __pycache__/
