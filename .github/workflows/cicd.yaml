@@ -1,3 +1,4 @@
+
 name: Deploy Streamlit App to Cloud Run
 
 on:
@@ -6,10 +7,10 @@ on:
       - main
 
 env:
-  PROJECT_ID: datapath-kevin-inofuente
+  PROJECT_ID: proyecto-casas-app-nallely
   REGION: us-central1
-  REPOSITORY: repositorio-mlops15-streamlit-ml
-  SERVICE_NAME: servicio-streamlit-nalley-casas
+  REPOSITORY: repositorio-mlops-streamlit
+  SERVICE_NAME: servicio-streamlit-nallely-casas
   IMAGE_NAME: streamlit-casas-app
 
 jobs:
